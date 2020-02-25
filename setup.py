@@ -11,7 +11,7 @@ INSTALL_REQUIRES = [
     'numpy',
     'scipy',
     'scikit-learn',
-    'fasttext',
+    'fasttext @ git+https://github.com/facebookresearch/fastText@02c61efaa6d60d6bb17e6341b790fa199dfb8c83',
 ]
 TEST_REQUIRES = [
     # testing and coverage
